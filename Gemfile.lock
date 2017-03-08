@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Wolverineandrew/andrew_view_tool
+  revision: 961451714aad28b421ec44fffbecc6843712785b
+  specs:
+    andrew_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -182,6 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  andrew_view_tool!
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
