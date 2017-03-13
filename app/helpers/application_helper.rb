@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    AndrewViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    AndrewViewTool::Renderer.copyright 'Andrew Wilson', 'All rights reserved'
   end
 
   def nav_items
