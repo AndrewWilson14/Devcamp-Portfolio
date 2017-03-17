@@ -1,10 +1,10 @@
-jQuery(document).on 'turbolink:load', ->
+jQuery(document).on 'turbolinks:load', ->
   comments = $('#comments')
-  if comment.length > 0
-    App.global_chat = App.cable.subscription.create {
-      channel: "BlogsChannel" 
+  if comments.length > 0
+    App.global_chat = App.cable.subscriptions.create {
+      channel: "BlogsChannel"
       blog_id: comments.data('blog-id')
-    }, 
+    },
     connected: ->
     disconnected: ->
     received: (data) ->
@@ -18,5 +18,5 @@ jQuery(document).on 'turbolink:load', ->
       App.global_chat.send_comment textarea.val(),
       comments.data('blog-id')
       textarea.val('')
-    2.preventDefault()
+    e.preventDefault()
     return false
