@@ -221,21 +221,29 @@ h6, .h6 {
 
 .tech-news { 
   color: black;
-  margin: 20px;
+  margin: 10px;
 }
 
 .tech-news > .card { 
-  padding: 30px;
-  height: 150px;
+  padding: 20px;
+  height: 155px;
 }
 
 .tech-news a { 
   color: green;
 }
 
+.contact {
+  padding: 10px;
+}
+
+.app-card-container > h1 {
+  text-align: center;
+}
+
 .app-card-container {
   color: black;
-  text-align: left;
+  text-align: center;
 }
 
 .app-card-container > .card {
@@ -247,7 +255,19 @@ h6, .h6 {
 }
 
 .app-card-container a {
-  color: blue;
+  color: #DB4437;
+}
+
+.app-card-container .facebook {
+  color: #3B5998,
+}
+
+.app-card-container .twitter {
+  color: #2FC2EF;
+}
+
+.app-card-container .github {
+  color: #24292E;
 }
 
 .card-block {
